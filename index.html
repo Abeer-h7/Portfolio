@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Portfolio</title>
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+         <h1>Abeer.</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+             <h1>Abeer.</h1>
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#review" class="navbar-link" data-nav-link>Review</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <div class="hero text-center" id="home">
+        <div class="container">
+
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
+              <img src="./assets/images/img.jpg" width="500" height="680" alt="Abeer" class="img-cover">
+            </div>
+
+            <span class="span title">Abeer.</span>
+
+          </div>
+
+          <div class="hero-content">
+
+            <h1 class="h1 title">Welcome to my Portfolio ! I'm a Level 5 Psychology student at BSU</h1>
+
+            <!-- <div class="wrapper">
+              <a href="#" class="btn btn:hover">
+                <span class="span">Download CV</span>
+
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div> -->
+
+          </div>
+
+          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+
+          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+
+        </div>
+      </div>
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+
+          <div class="tab-container">
+
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Skills</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="awward">Certificates</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+              <div class="grid-list">
+
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/psychology.jpg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+
+                <div class="about-content">
+
+                  <h2 class="h4 title section-title">
+                    Navigating the Infinite Universe of the Human Mind.
+                  </h2>
+
+                  <p class="section-text">
+                    Navigating the infinite universe of our thoughts and behaviors. Here, you'll discover insights into psychological theories, groundbreaking research, and practical applications. Whether you're a fellow student, a psychology enthusiast, or someone eager to understand mental health better, Pschoology offers a wealth of resources and engaging content. 
+                  </p>
+
+                  <ul class="about-list">
+
+                    <li class="about-item">
+                      <p class="list-title">Name</p>
+
+                      <span class="span title h5">Abeer</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Phone Number</p>
+
+                      <span class="span title h5">+971 56 672 7314</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Email Address</p>
+
+                      <span class="span title h5">abeehamid044@gmail.com</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Social Network</p>
+
+                      <div class="social-list">
+
+                        <a href="#" class="social-link h6" title="Instagram">In.</a>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="skillset">
+              <div class="grid-list">
+
+                <div class="skill-content">
+
+                  <h3 class="h4 title section-title">
+                    Skills and Expertise.
+                  </h3>
+
+                  <p class="section-text">
+                    As a Level 5 Psychology student at BSU, I have developed a diverse set of skills and expertise essential for understanding and analyzing the complexities of human behavior. My capabilities span from conducting in-depth psychological research to applying effective counseling techniques. I excel in critical thinking, communication, and interpersonal skills, ensuring a comprehensive approach to both academic and practical applications in psychology. My dedication to ethical awareness, cultural sensitivity, and technological proficiency further supports my commitment to advancing in this field and making a meaningful impact.
+                  </p>
+
+                </div>
+
+                <figure class="skill-banner img-holder" style="--width: 570; --height: 420;" data-tilt>
+                  <img src="./assets/images/skill-img.jpg" width="570" height="420" loading="lazy" alt="skill banner"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="awward">
+
+              <h3 class="h4 title section-title">
+                Here are the certificates I've earned so far in my journey: 
+              </h3>
+
+              <ul class="grid-list">
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/certificate.png" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="tab-content" data-tab-content="exhibition">
+              <ul class="grid-list">
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/exhibition-1.jpg" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/exhibition-2.jpg" width="376" height="200" loading="lazy" alt="video"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/exhibition-3.jpg" width="376" height="200" loading="lazy" alt="music"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="logo-soundcloud" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/exhibition-4.jpg" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/exhibition-5.jpg" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/exhibition-6.jpg" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi" aria-label="what our client says" id="review">
+        <div class="container">
+
+          <div class="testi-content">
+
+            <blockquote class="title h4 section-text">
+              &ldquo;Exploring this website has been an enlightening experience. The insights and resources provided by my friend, a Level 5 Psychology student at BSU, have deepened my understanding of the human mind. This platform is a must-visit for anyone interested in psychology! &rdquo;
+            </blockquote>
+
+            <div class="profile-card">
+              <figure class="card-banner img-holder" style="height: 30; width: 7%;">
+                <img src="./assets/images/test-img.webp" width="10" height="10" loading="lazy" alt="Zara"
+                  class="img-cover">
+              </figure>
+
+              <div>
+                <p class="title h5 card-title">Zara.</p>
+
+                <p class="card-subtitle">Friend.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+
+          <h2 class="title h2 section-title">Get In Touch</h2>
+
+          <div class="contact-content">
+
+            <form action="./index.html" method="post" class="contact-form">
+
+              <input type="text" name="name" placeholder="Full name" autocomplete="off" required class="input-field">
+
+              <input type="email" name="email_address" placeholder="Email address" autocomplete="off" required
+                class="input-field">
+
+              <input type="tel" name="phone" placeholder="Phone" autocomplete="off" class="input-field">
+
+              <textarea name="message" placeholder="Enter massges" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn:hover">
+                <span class="span">Submit</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3608.508003911057!2d55.302811152039496!3d25.253491030166057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sae!4v1719401807416!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-1.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">+971 56 672 7314</span>
+
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">abeehamid044@gmail.com</span>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        Copyright & Design By @Abeer - 2024
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <span class="span">Back To Top</span>
+
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
